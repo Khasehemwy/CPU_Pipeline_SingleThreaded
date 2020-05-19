@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/VTF_CPU_isim_beh.exe" -prj "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/VTF_CPU_beh.prj" "work.VTF_CPU" "work.glbl" 

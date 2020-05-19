@@ -1,0 +1,15 @@
+[Inputs]
+CLK
+Reset
+regWrite
+=readReg1[32:1]=
+=readReg2[32:1]=
+=writeReg[32:1]=
+=writeData[32:1]=
+[Outputs]
+=readData1[32:1]=
+=readData2[32:1]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel RegFile
+

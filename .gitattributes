@@ -1,0 +1,4 @@
+*.C linguist-language=Verilog
+*.c linguist-language=Verilog
+*.v linguist-language=Verilog
+*.cpp linguist-language=Verilog

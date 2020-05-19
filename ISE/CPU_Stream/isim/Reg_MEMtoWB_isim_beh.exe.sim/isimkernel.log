@@ -1,0 +1,28 @@
+Command line:
+   Reg_MEMtoWB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  10511
+
+Sat May 16 11:45:05 2020
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 5164.73 Meg
+
+ Total Signals          : 21
+ Total Nets             : 126
+ Total Signal Drivers   : 9
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 11
+ Total Traceable Variables  : 22
+ Total Scalar Nets and Variables : 245
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 5007.45 Meg
+
+Sat May 16 11:46:56 2020
+

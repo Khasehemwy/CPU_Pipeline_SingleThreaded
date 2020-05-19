@@ -1,0 +1,8 @@
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/ControlUnit.v -lang verilog -prj CPU -o ControlUnit.spl -module ControlUnit -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ControlUnit.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/ControlUnit.sym 
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/ControlUnit.v -lang verilog -prj CPU -o ControlUnit.spl -module ControlUnit -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ControlUnit.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/ControlUnit.sym 
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/ControlUnit.v -lang verilog -prj CPU -o ControlUnit.spl -module ControlUnit -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ControlUnit.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/ControlUnit.sym 
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/ControlUnit.v -lang verilog -prj CPU -o ControlUnit.spl -module ControlUnit -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ControlUnit.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/ControlUnit.sym 

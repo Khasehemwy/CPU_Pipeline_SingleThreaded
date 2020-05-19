@@ -1,0 +1,28 @@
+Command line:
+   VTF_CPU_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  4077
+
+Thu Feb 20 21:22:00 2020
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 5164.13 Meg
+
+ Total Signals          : 91
+ Total Nets             : 353
+ Total Signal Drivers   : 30
+ Total Blocks           : 13
+ Total Primitive Blocks : 11
+ Total Processes        : 47
+ Total Traceable Variables  : 60
+ Total Scalar Nets and Variables : 3085
+
+ Total Simulation Time: 0.1875 sec
+
+ Current Memory Usage: 5164.13 Meg
+
+Thu Feb 20 21:22:19 2020
+

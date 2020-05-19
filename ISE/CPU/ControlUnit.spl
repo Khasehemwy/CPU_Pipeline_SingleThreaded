@@ -1,0 +1,20 @@
+[Inputs]
+Zero
+=op[6:1]=
+[Outputs]
+Reset
+PCWrite
+RegToWrite
+RegShouldWrite
+AluInput
+Branch
+Jump
+MemWrite
+MemRead
+MemToReg
+=AluOp[4:1]=
+=PCSrc[2:1]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel ControlUnit
+

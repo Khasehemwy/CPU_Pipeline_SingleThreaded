@@ -1,0 +1,4 @@
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/Main.v -lang verilog -prj CPU -o Main.spl -module Main -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Main.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/Main.sym 
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/Main.v -lang verilog -prj CPU -o Main.spl -module Main -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Main.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/Main.sym 

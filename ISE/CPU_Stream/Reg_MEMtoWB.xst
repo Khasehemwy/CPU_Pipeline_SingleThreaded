@@ -1,0 +1,5 @@
+set -tmpdir "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/xst/projnav.tmp"
+set -xsthdpdir "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/xst"
+elaborate
+-ifn Reg_MEMtoWB.prj
+-ifmt mixed

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/VTF_CPU_Stream.v" Line 93: Port <arg fmt="%s" index="1">isRtype_ID</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.v" Line 190: Port <arg fmt="%s" index="1">CLK</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="unknown" >"D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.v" Line 208: Port <arg fmt="%s" index="1">Zero_in</arg> is not connected to this instance
+</msg>
+
+</messages>
+

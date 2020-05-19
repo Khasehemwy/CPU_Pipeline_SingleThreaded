@@ -1,0 +1,6 @@
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/RegFile.v -lang verilog -prj CPU -o RegFile.spl -module RegFile -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RegFile.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/RegFile.sym 
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/RegFile.v -lang verilog -prj CPU -o RegFile.spl -module RegFile -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RegFile.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/RegFile.sym 
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/RegFile.v -lang verilog -prj CPU -o RegFile.spl -module RegFile -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e RegFile.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU/RegFile.sym 

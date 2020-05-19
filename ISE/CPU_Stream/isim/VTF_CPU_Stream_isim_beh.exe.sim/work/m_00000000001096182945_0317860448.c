@@ -22,7 +22,7 @@
 #define alloca _alloca
 #endif
 static const char *ng0 = "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ROM.v";
-static const char *ng1 = "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream_RomData/romData_sw.txt";
+static const char *ng1 = "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream_RomData/romData_addi.txt";
 static int ng2[] = {0, 0};
 static int ng3[] = {32, 0};
 static int ng4[] = {25, 0};

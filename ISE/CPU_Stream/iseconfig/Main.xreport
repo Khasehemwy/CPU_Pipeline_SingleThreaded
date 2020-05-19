@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2020-05-16T11:41:17</DateModified>
+  <DateModified>2020-10-22T11:13:47</DateModified>
   <ModuleName>Main</ModuleName>
-  <SummaryTimeStamp>Unknown</SummaryTimeStamp>
+  <SummaryTimeStamp>2020-10-22T10:59:19</SummaryTimeStamp>
   <SavedFilePath>D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/iseconfig/Main.xreport</SavedFilePath>
   <ImplementationReportsDirectory>D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream\</ImplementationReportsDirectory>
   <DateInitialized>2020-03-05T23:58:45</DateInitialized>

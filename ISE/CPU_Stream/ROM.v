@@ -27,7 +27,7 @@ module ROM(
     reg [8:1] rom[N:0];
 
     initial begin
-        $readmemb ("D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream_RomData/romData_sw.txt",rom);
+        $readmemb ("D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream_RomData/romData_addi.txt",rom);
         dataOut[32:25]=rom[0];dataOut[24:17]=rom[1];dataOut[16:9]=rom[2];dataOut[8:1]=rom[3];
     end
 

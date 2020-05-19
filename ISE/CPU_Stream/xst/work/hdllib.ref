@@ -1,1 +1,14 @@
-MO Reg_MEMtoWB NULL Reg_MEMtoWB.v vlg40/_reg___m_e_mto_w_b.bin 1589600878
+MO ControlUnit NULL ControlUnit.v vlg71/_control_unit.bin 1603336578
+MO Reg_IDtoEXE NULL Reg_IDtoEXE.v vlg1B/_reg___i_dto_e_x_e.bin 1603336578
+MO ALU_branch NULL ALU_branch.v vlg47/_a_l_u__branch.bin 1603336578
+MO ROM NULL ROM.v vlg5A/_r_o_m.bin 1603336578
+MO Reg_MEMtoWB NULL Reg_MEMtoWB.v vlg40/_reg___m_e_mto_w_b.bin 1603336578
+MO Extend NULL Extend.v vlg4C/_extend.bin 1603336578
+MO PC NULL PC.v vlg53/_p_c.bin 1603336578
+MO Reg_EXEtoMEM NULL Reg_EXEtoMEM.v vlg3D/_reg___e_x_eto_m_e_m.bin 1603336578
+MO Reg_IFtoID NULL Reg_IFtoID.v vlg40/_reg___i_fto_i_d.bin 1603336578
+MO RAM NULL RAM.v vlg14/_r_a_m.bin 1603336578
+MO Main NULL Main.v vlg0D/_main.bin 1603336578
+MO RegFile NULL RegFile.v vlg32/_reg_file.bin 1603336578
+MO ALU NULL ALU.v vlg2A/_a_l_u.bin 1603336578
+MO PCAdder NULL PCAdder.v vlg63/_p_c_adder.bin 1603336578

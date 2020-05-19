@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+xst -intstyle ise -ifn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.xst" -ofn "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.syr" 
+vhdtdtfi -lib work D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.v -lang verilog -prj CPU_Stream -o Main.spl -module Main -template D:/app/XiLinx/ISE/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Main.spl D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.sym 

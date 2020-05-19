@@ -25,7 +25,7 @@
 
 
 
-extern void work_m_00000000000268029898_2973510161_init()
+extern void work_m_00000000000200228521_2973510161_init()
 {
-	xsi_register_didat("work_m_00000000000268029898_2973510161", "isim/VTF_CPU_Stream_isim_beh.exe.sim/work/m_00000000000268029898_2973510161.didat");
+	xsi_register_didat("work_m_00000000000200228521_2973510161", "isim/VTF_CPU_Stream_isim_beh.exe.sim/work/m_00000000000200228521_2973510161.didat");
 }

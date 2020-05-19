@@ -86,7 +86,7 @@ module Main(
         .entireOpCode(entireOpCode_ID),
         ///////////////////////////////
 
-        .Reset(Reset),
+        //.Reset(Reset),
         .isRtype(isRtype_ID),
         .isJal(isJal_ID),
         .PCWrite(PCWrite),

@@ -27,12 +27,13 @@ module RAM(
 
     parameter N = 63;
     reg [8:1] ram [N:0];
-
+    
+    integer i;
     initial begin
         for(i=0;i<=N;i=i+1)
             ram[i] <= 0;
     end
-    integer i;
+    
 
     always @(Address or Read)begin
         if(Read==1)begin

@@ -29,23 +29,40 @@ module RegFile(
     parameter N = 32;
     reg [32:1] regFile [N:0];
     
+    integer i;
     initial begin
         for(i=0;i<=N;i=i+1)
             regFile[i] <= 32'b0;
     end
-    integer i;
+    
 
-    always @(isJal or regWriteData_jal)begin
-        if(isJal)   regFile[31] = regWriteData_jal;
-        else    regFile[31]=regFile[31]; //keep
-    end
+    // always @(isJal or regWriteData_jal)begin
+    //     if(isJal)   regFile[31] = regWriteData_jal;
+    //     else    regFile[31]=regFile[31]; //keep
+    // end
 
-    always @(regShouldWrite or regWriteAddress or writeData)begin //write
-        if(regShouldWrite)begin
-            regFile[regWriteAddress] = writeData;
+    always @(regShouldWrite or regWriteAddress or writeData //write
+            or isJal or regWriteData_jal //jal
+            //or negedge CLK //read
+            or Reset)begin 
+        //write
+        if(Reset == 0)begin
+            if(regShouldWrite)begin
+                regFile[regWriteAddress] <= writeData;
+            end
+            else begin
+                regFile[regWriteAddress] <= regFile[regWriteAddress];
+            end
+
+            //jal
+            if(isJal)begin   
+                regFile[31] <= regWriteData_jal;
+            end
+            else ;
         end
+
         else begin
-            regFile[regWriteAddress] = regFile[regWriteAddress];
+            for(i=0;i<=N;i=i+1)regFile[i] <= 32'b0;
         end
     end
 
@@ -54,11 +71,11 @@ module RegFile(
         readData2 <= (regAddress2==0) ? 0 :regFile[regAddress2];
     end
 
-    always @(Reset)begin
-        if(Reset == 1)begin
-            for(i=0;i<=N;i=i+1)regFile[i] <= 32'b0;
-        end
-        else ;
-    end
+    // always @(Reset)begin
+    //     if(Reset == 1)begin
+    //         for(i=0;i<=N;i=i+1)regFile[i] <= 32'b0;
+    //     end
+    //     else ;
+    // end
 
 endmodule

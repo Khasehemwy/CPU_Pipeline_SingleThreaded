@@ -1,0 +1,102 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Common 17-86] Your PlanAhead license expires in -1392 day(s)
+INFO: [Device 21-36] Loading parts and site information from D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/pa.fromHdl.tcl
+# create_project -name CPU_Stream -dir "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/planAhead_run_2" -part xc3s1200efg320-4
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "Main.ucf" [current_fileset -constrset]
+Adding file 'D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ROM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Reg_MEMtoWB.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Reg_IFtoID.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Reg_IDtoEXE.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Reg_EXEtoMEM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RegFile.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {RAM.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PCAdder.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {PC.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Extend.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ControlUnit.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU_branch.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ALU.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {Main.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top Main $srcset
+# add_files [list {Main.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc3s1200efg320-4
+Using Verific elaboration
+Parsing VHDL file "D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ROM.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Reg_MEMtoWB.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Reg_IFtoID.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Reg_IDtoEXE.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Reg_EXEtoMEM.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/RegFile.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/RAM.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/PCAdder.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/PC.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Extend.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ControlUnit.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ALU_branch.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ALU.v" into library work
+Analyzing Verilog file "D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.v" into library work
+INFO: [Designutils 20-910] Reading macro library D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockRegion.xml
+Loading clock buffers from D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/ClockBuffers.xml
+Loading package from D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/Package.xml
+Loading io standards from D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s1200e/fg320/SSORules.xml
+Loading list of drcs for the architecture : D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library D:/app/XiLinx/ISE/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.ucf]
+Finished Parsing UCF File [D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: ac0a2811
+open_rtl_design: Time (s): elapsed = 00:00:08 . Memory (MB): peak = 600.648 ; gain = 140.324
+update_compile_order -fileset sim_1
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Fri Oct 23 11:14:28 2020...
+INFO: [Common 17-83] Releasing license: PlanAhead

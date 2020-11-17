@@ -8,7 +8,49 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ALU.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ALU_branch.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ControlUnit.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/DataSelect.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Extend.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Main.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/PC.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/PCAdder.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/RAM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/ROM.v&quot; into library work</arg>
+</msg>
+
 <msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/RegFile.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Reg_EXEtoMEM.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Reg_IDtoEXE.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Reg_IFtoID.v&quot; into library work</arg>
+</msg>
+
+<msg type="info" file="ProjectMgmt" num="1845" ><arg fmt="%s" index="1">Analyzing Verilog file &quot;D:/OneDrive/Projects/PrinciplesOfComputerComposition/ISE/CPU_Stream/Reg_MEMtoWB.v&quot; into library work</arg>
 </msg>
 
 </messages>
